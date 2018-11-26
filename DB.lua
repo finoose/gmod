@@ -1,8 +1,8 @@
-timer.Simple( 3, function() chat.AddText(Color(170, 170, 170), "[", "FinooseWare.cc", "] ", Color( 255, 255, 255 ), "Loading......") end)
-timer.Simple( 5, function() chat.AddText(Color(170, 170, 170), "[", "FinooseWare.cc", "] ", Color( 255, 255, 255 ), "Reading file. ragebot / legitbot") end)
-timer.Simple( 5, function() chat.AddText(Color(170, 170, 170), "[", "FinooseWare.cc", "] ", Color( 255, 255, 255 ), "Initalizing b1g cheat.........") end)
-timer.Simple( 9, function() chat.AddText(Color(170, 170, 170), "[", "FinooseWare.cc", "] ", Color( 255, 255, 255 ), "Ofc we dont have auth") end)
-timer.Simple( 11, function() chat.AddText(Color(170, 170, 170), "[", "FinooseWare.cc", "] ", Color( 255, 255, 255 ), "Welcome to FinooseWare.cc", Color( math.random(0, 255), math.random(0, 255), math.random(0, 255), 255 ), " ",LocalPlayer():Name()  ) end)
+timer.Simple( 3, function() chat.AddText(Color(170, 170, 170), "[", "noose.ga", "] ", Color( 255, 255, 255 ), "Loading......") end)
+timer.Simple( 5, function() chat.AddText(Color(170, 170, 170), "[", "noose.ga", "] ", Color( 255, 255, 255 ), "Reading file. ragebot / legitbot") end)
+timer.Simple( 5, function() chat.AddText(Color(170, 170, 170), "[", "noose.ga", "] ", Color( 255, 255, 255 ), "Initalizing b1g cheat.........") end)
+timer.Simple( 9, function() chat.AddText(Color(170, 170, 170), "[", "noose.ga", "] ", Color( 255, 255, 255 ), "Ofc we dont have auth") end)
+timer.Simple( 11, function() chat.AddText(Color(170, 170, 170), "[", "noose.ga", "] ", Color( 255, 255, 255 ), "Welcome to FinooseWare.cc", Color( math.random(0, 255), math.random(0, 255), math.random(0, 255), 255 ), " ",LocalPlayer():Name()  ) end)
 timer.Simple( 15, function() chat.AddText(Color(170, 170, 170), "[", "noose.ga", "] ", Color( 255, 255, 255 ), "Privated cheat, Leak it and you will enjoy a bsod", Color( math.random(0, 255), math.random(0, 255), math.random(0, 255), 255 ), " ",LocalPlayer():Name()  ) end)
 timer.Simple( 17, function() chat.AddText(Color(170, 170, 170), "[", "noose.ga", "] ", Color( 255, 255, 255 ), "ok? Thanks :3") end) 
 surface.PlaySound("buttons/bell1.wav") 
@@ -12,10 +12,10 @@ local idiot_antiscreengrab 			   = "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgH
 local idiot_antiscreengrab2 		   = "iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAIAAADNpLIqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYSURBVBhXY2BgYmBmYGFgZEAFlIkyMAAACDAAKdIBq3cAAAAASUVORK5CYII="
 render.Capture = function() return idiot_antiscreengrab end
 render.Capture = function() return idiot_antiscreengrab end
-render.Capture = function() return idiot_antiscreengrab end       -- litteraly stolen anti-screengrab from idiotbox
+render.Capture = function() return idiot_antiscreengrab end       -- thanks idiotbox
 render.Capture = function() return idiot_antiscreengrab2 end 
 render.Capture = function() return idiot_antiscreengrab2 end
-render.Capture = function() return idiot_antiscreengrab2 end --  Secondary anti screengrab method, just to make sure
+render.Capture = function() return idiot_antiscreengrab2 end --  <3
 render.Capture = function() return chat.AddText(Color( 170, 170, 170 ), "[", "noose.ga", "] ", Color( 255, 255, 255 ), "Attempted screengrab has been detected. ")
 end
 
@@ -1662,7 +1662,7 @@ local function chatspam1()
     if(!gBool("f", "Chat-Spams", "Enabled")) then return; end
 local chatspam1 = gBool("f", "Chat-Spams","Chat-Spam1");
     if(chatspam1) then
-        RunConsoleCommand("say", "If I wanted to suicide, i'd jump from your ego to your elo, just get good and get skeet.cc")
+        RunConsoleCommand("say", "If I wanted to suicide, i'd jump from your ego to your elo, just get good and get noose.ga")
     end
 end
 timer.Create("chatspam1", 0.1,0,chatspam1)
@@ -1680,7 +1680,7 @@ local function chatspam3()
        if(!gBool("f", "Chat-Spams", "Enabled")) then return; end
 local chatspam3 = gBool("f", "Chat-Spams","Chat-Spam3");
     if(chatspam3) then
-        RunConsoleCommand("say", "noos.cc ==> dominate everything.")
+        RunConsoleCommand("say", "noose.ga dominates everything.")
     end
 end
 timer.Create("chatspam3", 0.1,0,chatspam3)
@@ -1689,7 +1689,7 @@ local function chatspam4()
     if(!gBool("f", "Chat-Spams", "Enabled")) then return; end
 local chatspam4 = gBool("f", "Chat-Spams","Chat-Spam4");
     if(chatspam4) then
-        RunConsoleCommand("say", "noos.cc ==> Best cheat in lua.")
+        RunConsoleCommand("say", "noos.ga is the best cheat in lua.")
     end
 end
 timer.Create("chatspam4", 0.1,0,chatspam4	)
@@ -1698,7 +1698,7 @@ local function chatspam5()
     if(!gBool("f", "Chat-Spams", "Enabled")) then return; end
 local chatspam5 = gBool("f", "Chat-Spams","Chat-Spam5");
     if(chatspam5) then
-        RunConsoleCommand("say", "noos.cc ==> Only a shitty C++ cannot beat lua.")
+        RunConsoleCommand("say", "noose.ga coded in chinese")
     end
 end
 timer.Create("chatspam5", 0.1,0,chatspam5)
